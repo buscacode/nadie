@@ -35,3 +35,9 @@ For this time, i will use lerna and tsup
   ```
   pnpm link utils
   ```
+
+
+- To login with scope (@nadie437)
+  ```
+  npm login --scope=nadie437
+  ```
