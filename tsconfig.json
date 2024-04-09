@@ -1,0 +1,21 @@
+{
+  "compilerOptions": {
+    //"incremental": true,
+    "target": "es2022",
+    "module": "commonjs",
+    "declaration": true,
+    "strict": true,
+    "moduleResolution": "node",
+    "resolveJsonModule": true, 
+    "allowJs": true,
+    "esModuleInterop": true,
+    "skipLibCheck": true,
+    "forceConsistentCasingInFileNames": true,
+    "inlineSourceMap": true,
+    "isolatedModules": true,
+    "baseUrl": "./",
+    "outDir": "./dist",
+    //"composite": true,
+  },
+  "exclude": ["node_modules", "dist"]
+}

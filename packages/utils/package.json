@@ -1,6 +1,6 @@
 {
-  "name": "utils",
-  "version": "0.1.0-alpha.2",
+  "name": "@nadie437/utils",
+  "version": "0.1.0-alpha.0",
   "description": "Util functions",
   "keywords": [
     "util",
@@ -31,5 +31,6 @@
   },
   "bugs": {
     "url": "https://github.com/buscacode/nadie/issues"
-  }
+  },
+  "gitHead": "ced16ee711139660e82e72805592aab6324b0e46"
 }

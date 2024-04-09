@@ -1,6 +1,6 @@
 {
-  "name": "tools",
-  "version": "0.1.0-alpha.2",
+  "name": "@nadie437/tools",
+  "version": "0.1.0-alpha.0",
   "description": "functions tools to be used",
   "keywords": [
     "functions",
@@ -35,5 +35,6 @@
   "dependencies": {
     "mi-causa": "0.1.0-alpha.4",
     "utils": "^0.1.0-alpha.2"
-  }
+  },
+  "gitHead": "ced16ee711139660e82e72805592aab6324b0e46"
 }

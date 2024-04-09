@@ -1,0 +1,26 @@
+{
+  "name": "root",
+  "private": true,
+  "scripts": {
+    "build": "tsc --build --verbose",
+    "build:packages": "lerna run build",
+    "publish:packages": "lerna publish",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "workspaces": [
+    "packages/*"
+  ],
+  "dependencies": {
+    "rimraf": "^5.0.5",
+    "typescript": "^5.4.4"
+  },
+  "devDependencies": {
+    "@types/node": "^20.12.5",
+    "@typescript-eslint/eslint-plugin": "^7.5.0",
+    "@typescript-eslint/parser": "^7.5.0",
+    "eslint": "8.57.0",
+    "lerna": "^8.1.2",
+    "ts-node": "^10.9.2",
+    "tsup": "^8.0.2"
+  }
+}
