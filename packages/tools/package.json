@@ -1,0 +1,39 @@
+{
+  "name": "tools",
+  "version": "0.1.0-alpha.2",
+  "description": "functions tools to be used",
+  "keywords": [
+    "functions",
+    "tools"
+  ],
+  "author": "Wilder Trujillo <nadie437@gmail.com>",
+  "homepage": "https://github.com/buscacode/nadie",
+  "license": "MIT",
+  "main": "dist/index.js",
+  "module": "dist/index.mjs",
+  "types": "dist/index.d.ts",
+  "directories": {
+    "dist": "dist",
+    "src": "src",
+    "test": "__tests__"
+  },
+  "files": [
+    "dist"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/buscacode/nadie.git",
+    "directory": "packages/tools"
+  },
+  "scripts": {
+    "build": "rimraf dist && tsup src/index.ts --dts",
+    "test": "node ./__tests__/tools.test.js"
+  },
+  "bugs": {
+    "url": "https://github.com/buscacode/nadie/issues"
+  },
+  "dependencies": {
+    "mi-causa": "0.1.0-alpha.4",
+    "utils": "^0.1.0-alpha.2"
+  }
+}

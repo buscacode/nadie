@@ -1,0 +1,35 @@
+{
+  "name": "utils",
+  "version": "0.1.0-alpha.2",
+  "description": "Util functions",
+  "keywords": [
+    "util",
+    "functions"
+  ],
+  "author": "Wilder Trujillo <nadie437@gmail.com>",
+  "homepage": "https://github.com/buscacode/nadie",
+  "license": "MIT",
+  "main": "dist/index.js",
+  "module": "dist/index.mjs",
+  "types": "dist/index.d.ts",
+  "directories": {
+    "dist": "dist",
+    "src": "src",
+    "test": "__tests__"
+  },
+  "files": [
+    "dist"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/buscacode/nadie.git",
+    "directory": "packages/utils"
+  },
+  "scripts": {
+    "build": "rimraf dist && tsup src/index.ts --dts",
+    "test": "node ./__tests__/utils.test.js"
+  },
+  "bugs": {
+    "url": "https://github.com/buscacode/nadie/issues"
+  }
+}
